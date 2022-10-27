@@ -24,3 +24,22 @@ sl.write("********")
 sl.write("Berhasil mengambil tweet sebanyak")
 sl.write(df.count(axis=0))
 df.to_csv('tweet.csv', index=False)
+
+sl.write('Lihat data ?')
+bShow = sl.button('Lihat')
+bclose = sl.button('Tutup')
+
+if bShow:
+    sl.write(df)
+else:
+    ''
+
+if bShow:
+    ''
+else:
+    ''
+
+bDownload = sl.button('Download')
+
+if bDownload:
+    df.to_csv('1.csv',index=False)
