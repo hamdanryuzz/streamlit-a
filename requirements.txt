@@ -1,7 +1,2 @@
 snscrape
-emoji
-contractions
-re
-googletrans
-matplotlib
 textblob
