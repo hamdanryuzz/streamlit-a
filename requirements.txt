@@ -2,6 +2,6 @@ snscrape
 emoji
 contractions
 re
-nltk
 googletrans
 matplotlib
+textblob
